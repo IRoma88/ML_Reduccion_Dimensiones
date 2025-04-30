@@ -50,3 +50,27 @@ Asegúrate de instalar las dependencias listadas en `requirements.txt`.
 ## 📬 Contacto
 
 Este proyecto es parte de un módulo de aprendizaje sobre Machine Learning con imágenes. Para dudas o colaboración, puedes abrir un issue o enviar un pull request.
+
+## Interesante:
+Los paquetes de **requirements.txt** cubren todo lo necesario para:
+
+1. Carga del dataset fetch_lfw_people
+
+2. Preprocesamiento (StandardScaler)
+
+3. PCA
+
+4. SVM
+
+5. Visualización (matplotlib)
+
+6. Búsqueda aleatoria de hiperparámetros (RandomizedSearchCV)
+
+
+.gitignore incluye ignorar:
+
+1. Entornos virtuales
+
+2. Archivos temporales de Python y Jupyter
+
+3. Carpeta por defecto donde **fetch_lfw_people** descarga el dataset **(lfw_home/)**
