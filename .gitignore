@@ -1,0 +1,23 @@
+# Entornos virtuales
+venv/
+.env/
+.venv/
+
+# Archivos y directorios temporales de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Configuración de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Cachés
+*.cache
+*.log
+
+# Datos descargados
+lfw_home/
